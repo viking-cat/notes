@@ -7,3 +7,12 @@
 #
 layout: home
 ---
+
+<div style="column-count:3;column-gap:20px;background-color:#f715ab;">
+    hello<br/>
+    this<br/>
+    is<br/>
+    a<br/>
+    test<br/>
+    list<br/>
+  </div>
