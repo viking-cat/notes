@@ -9,6 +9,7 @@ layout: home
 ---
 
 <div style="column-count:3;column-gap:20px;background-color:#f715ab;">
+    [Kotlin]({% link pages/kotlin.md %})
     hello<br/>
     this<br/>
     is<br/>
