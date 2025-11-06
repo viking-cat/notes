@@ -10,7 +10,7 @@ layout: home
 
 
 {% capture myblock %}
-[Kotlin]({% link pages/kotlin.md %})<br/>
+[Kotlin](pages/kotlin.md)<br/>
 hello<br/>
 this<br/>
 is<br/>
