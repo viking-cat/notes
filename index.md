@@ -8,9 +8,21 @@
 layout: home
 ---
 
+# Programming IDEs
+{% capture myblock %}
+[Intellij](https://www.jetbrains.com/idea/) Community<br/>
+[VS Code](https://code.visualstudio.com/)<br/>
+{% endcapture %}
+
+<div style="column-count:3;column-gap:20px;background-color:#f715ab;">
+    {{ myblock | markdownify }}
+</div>
+
 
 {% capture myblock %}
+# Programming Languages
 [Kotlin](pages/kotlin.md)<br/>
+# Test
 hello<br/>
 this<br/>
 is<br/>
