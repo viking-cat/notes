@@ -15,6 +15,7 @@ layout: home
 
 ### Languages<br/>
 [Kotlin](pages/kotlin.md)<br/>
+[Markdown](https://www.markdownguide.org/)<br/>
 {% endcapture %}
 
 <div style="column-count:3;column-gap:20px;background-color:#f715ab;">
