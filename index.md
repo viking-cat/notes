@@ -18,12 +18,13 @@ layout: home
 
 ### Languages<br/>
 [Kotlin](pages/kotlin.md)<br/>
+&nbsp;[Docs](https://kotlinlang.org/docs/home.html)<br/>
 {% endcapture %}
 
 <div style="
      column-count:3;
      column-gap:20px;
-     column-rule:1px sold #f715ab;">
+     column-rule:1px solid #f715ab;">
     {{ codeBlock | markdownify }}
 </div>
 
@@ -31,9 +32,13 @@ layout: home
 # Web Development
 
 {% capture webBlock %}
+### CSS<br/>
+[Reference](https://www.w3schools.com/cssref/index.php) *W3 Schools*<br/>
+[CanIuse](https://caniuse.com/)<br/>
 ### SSGs<br/>
 #### Jekyll<br/>
 [Jekyll](https://jekyllrb.com/)<br/>
+&nbsp;[Docs](https://jekyllrb.com/docs/)<br/>
 [Liquid](https://shopify.github.io/liquid/)<br/>
 [Markdown](https://www.markdownguide.org/)<br/>
 {% endcapture %}
@@ -41,6 +46,6 @@ layout: home
 <div style="
      column-count:3;
      column-gap:20px;
-     column-rule:1px sold #f715ab;">
+     column-rule:1px solid #f715ab;">
     {{ webBlock | markdownify }}
 </div>
