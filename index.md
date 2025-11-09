@@ -9,11 +9,11 @@ layout: home
 ---
 
 {% capture myblock %}
-### IDEs
+### IDEs<br/>
 [Intellij](https://www.jetbrains.com/idea/) Community<br/>
 [VS Code](https://code.visualstudio.com/)<br/>
 
-### Languages
+### Languages<br/>
 [Kotlin](pages/kotlin.md)<br/>
 {% endcapture %}
 
