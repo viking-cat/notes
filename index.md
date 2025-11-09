@@ -8,16 +8,32 @@
 layout: home
 ---
 
-{% capture myblock %}
+<!-- Programming -------------------------------------------------------->
+# Programming
+
+{% capture codeBlock %}
 ### IDEs<br/>
 [Intellij](https://www.jetbrains.com/idea/) Community<br/>
 [VS Code](https://code.visualstudio.com/)<br/>
 
 ### Languages<br/>
 [Kotlin](pages/kotlin.md)<br/>
+{% endcapture %}
+
+<div style="column-count:3;column-gap:20px;background-color:#f715ab;">
+    {{ codeBlock | markdownify }}
+</div>
+<!-- Web Development -------------------------------------------------->
+# Web Development
+
+{% capture webBlock %}
+### SSGs<br/>
+#### Jekyll<br/>
+[Jekyll](https://jekyllrb.com/)<br/>
+[Liquid](https://shopify.github.io/liquid/)<br/>
 [Markdown](https://www.markdownguide.org/)<br/>
 {% endcapture %}
 
 <div style="column-count:3;column-gap:20px;background-color:#f715ab;">
-    {{ myblock | markdownify }}
+    {{ webBlock | markdownify }}
 </div>
