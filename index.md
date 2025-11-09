@@ -17,6 +17,14 @@ layout: home
 [VS Code](https://code.visualstudio.com/)<br/>
 
 ### Languages<br/>
+C<br/>
+&nbsp;[Reference](https://en.cppreference.com/w/c/language.html)<br/>
+C++<br/>
+&nbsp;[Reference](https://en.cppreference.com/w/cpp/language.html)<br/>
+(Go)[https://go.dev/]<br/>
+[Java](https://www.java.com/)<br/>
+&nbsp;[JRE](https://www.java.com/sv/download/)<br/>
+&nbsp;[JDK](https://www.oracle.com/java/technologies/downloads/)<br/>
 [Kotlin](pages/kotlin.md)<br/>
 &nbsp;[Docs](https://kotlinlang.org/docs/home.html)<br/>
 
