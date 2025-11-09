@@ -20,9 +20,13 @@ layout: home
 [Kotlin](pages/kotlin.md)<br/>
 {% endcapture %}
 
-<div style="column-count:3;column-gap:20px;background-color:#f715ab;">
+<div style="
+     column-count:3;
+     column-gap:20px;
+     column-rule:1px sold #f715ab;">
     {{ codeBlock | markdownify }}
 </div>
+
 <!-- Web Development -------------------------------------------------->
 # Web Development
 
@@ -34,6 +38,9 @@ layout: home
 [Markdown](https://www.markdownguide.org/)<br/>
 {% endcapture %}
 
-<div style="column-count:3;column-gap:20px;background-color:#f715ab;">
+<div style="
+     column-count:3;
+     column-gap:20px;
+     column-rule:1px sold #f715ab;">
     {{ webBlock | markdownify }}
 </div>
