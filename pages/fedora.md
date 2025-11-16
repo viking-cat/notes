@@ -29,7 +29,6 @@ dnf list git --showduplicates
 dnf list git --showduplicates
 ```
 
-
 ### ptyxis <br/>
 
 ```bash
@@ -45,4 +44,3 @@ ptyxis --tab --title <name>
     {{ gameBlock | markdownify }}
 </div>
 
-## ansible
