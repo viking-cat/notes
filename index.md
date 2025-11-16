@@ -8,6 +8,22 @@
 layout: home
 ---
 
+
+<!-- Generic -------------------------------------------------------->
+# Generic
+
+{% capture gameBlock %}
+### Operative Systems<br/>
+[Fedora](pages/fedora.md)<br/>
+{% endcapture %}
+
+<div style="
+     column-count:3;
+     column-gap:20px;
+     column-rule:1px solid #f715ab;">
+    {{ gameBlock | markdownify }}
+</div>
+
 <!-- Programming -------------------------------------------------------->
 # Programming
 
@@ -45,7 +61,7 @@ C#<br/>
     {{ codeBlock | markdownify }}
 </div>
 
-<!-- Programming -------------------------------------------------------->
+<!-- Game Development -------------------------------------------------------->
 # Game Development
 
 {% capture gameBlock %}
