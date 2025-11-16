@@ -1,14 +1,14 @@
 # Software
 
 {% capture gameBlock %}
-## ansible
+### ansible
 
 ```bash
 # Install Ansible
 sudo dnf install ansible
 ```
 
-## dnf <br/>
+### dnf <br/>
 
 ```bash
 # dnf automatically updates itself
@@ -30,7 +30,7 @@ dnf list git --showduplicates
 ```
 
 
-## ptyxis <br/>
+### ptyxis <br/>
 
 ```bash
 # open named tab
