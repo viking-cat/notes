@@ -1,5 +1,18 @@
 Something AI
 
+# Tools
+
+{% capture toolsBlock %}
+[Ollama](https://ollama.com/)<br/>
+{% endcapture %}
+
+<div style="
+     column-count:3;
+     column-gap:20px;
+     column-rule:1px solid #f715ab;">
+    {{ toolsBlock | markdownify }}
+</div>
+
 # Retrieval-Augmented Generation (RAG)
 
 {% capture gameBlock %}
