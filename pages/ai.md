@@ -13,22 +13,23 @@ Something AI
     {{ toolsBlock | markdownify }}
 </div>
 
+# Agents
+
+5 Types of AI Agents 
+
 # Retrieval-Augmented Generation (RAG)
 
-{% capture gameBlock %}
-<div style="width:100%;height:0px;padding-bottom:56.25%">
-  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_HQ2H_0Ayy0?si=YjZ8gt9pZsRXNIfA" title="RAG Explained For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:static;" allowfullscreen></iframe>
-</div>
+{% capture ragBlock %}
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/_HQ2H_0Ayy0?si=YjZ8gt9pZsRXNIfA" title="RAG Explained For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:static;" allowfullscreen></iframe><br />
 aaaa<br/>
 bbbb<br/>
 cccc<br/>
 dddd<br/>
-
 {% endcapture %}
 
 <div style="
      column-count:2;
      column-gap:20px;
      column-rule:1px solid #f715ab;">
-    {{ gameBlock | markdownify }}
+    {{ ragBlock | markdownify }}
 </div>
