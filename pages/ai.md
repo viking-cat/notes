@@ -17,7 +17,7 @@ Something AI
 
 {% capture gameBlock %}
 
-<iframe src="https://www.youtube.com/embed/_HQ2H_0Ayy0?si=YjZ8gt9pZsRXNIfA" title="RAG Explained For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:static" allowfullscreen>
+<iframe src="https://www.youtube.com/embed/_HQ2H_0Ayy0?si=YjZ8gt9pZsRXNIfA" title="RAG Explained For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:static;width:100%;height:100%;" allowfullscreen>
 </iframe><br/>
 aaaa<br/>
 bbbb<br/>
