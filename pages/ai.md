@@ -7,16 +7,11 @@ Something AI
 [Ollama](https://ollama.com/)<br/>
 {% endcapture %}
 
-<div style="
-     column-count:3;
-     column-gap:20px;
-     column-rule:1px solid #f715ab;">
-    {{ toolsBlock | markdownify }}
-</div>
+<div style="column-count:3; column-gap:20px; column-rule:1px solid #f715ab;"> {{ toolsBlock | markdownify }}</div>
 
 # Agents
 {% capture agentBlock %}
-<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/fXizBc03D7E?si=aoqA5gNQvK8oENgn" title="5 Types of AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/fXizBc03D7E?si=aoqA5gNQvK8oENgn" id="5TypesOfAiAgents" title="5 Types of AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 * Simple Reflex Agent
 * Model-Based Reflex Agent
 * Goal-Based AI Agent
@@ -28,7 +23,7 @@ Something AI
 # Retrieval-Augmented Generation (RAG)
 
 {% capture ragBlock %}
-<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/_HQ2H_0Ayy0?si=YjZ8gt9pZsRXNIfA" title="RAG Explained For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:static;" allowfullscreen></iframe><br />
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/_HQ2H_0Ayy0?si=YjZ8gt9pZsRXNIfA" id="RagExplainedForBeginners" title="RAG Explained For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:static;" allowfullscreen></iframe><br />
 aaaa<br/>
 bbbb<br/>
 cccc<br/>
