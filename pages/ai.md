@@ -16,7 +16,7 @@ Something AI
 
 # Agents
 {% capture agentBlock %}
-<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/fXizBc03D7E?si=aoqA5gNQvK8oENgn" title="5 Types of AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br/>
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/fXizBc03D7E?si=aoqA5gNQvK8oENgn" title="5 Types of AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 * Simple Reflex Agent
 * Model-Based Reflex Agent
 * Goal-Based AI Agent
