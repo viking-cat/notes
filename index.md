@@ -28,7 +28,8 @@ layout: home
 
 # Artificial Intelligence
 
-{% capture gameBlock %}
+{% capture aiBlock %}
+[Tools](pages/ai.md#tools)<br/>
 [RAG](pages/ai.md#retrieval-augmented-generation-rag)<br/>
 {% endcapture %}
 
@@ -36,7 +37,7 @@ layout: home
      column-count:3;
      column-gap:20px;
      column-rule:1px solid #f715ab;">
-    {{ gameBlock | markdownify }}
+    {{ aiBlock | markdownify }}
 </div>
 
 # Programming
