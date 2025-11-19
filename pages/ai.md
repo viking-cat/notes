@@ -16,9 +16,9 @@ Something AI
 # Retrieval-Augmented Generation (RAG)
 
 {% capture gameBlock %}
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_HQ2H_0Ayy0?si=YjZ8gt9pZsRXNIfA" title="RAG Explained For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:static;" allowfullscreen>
-</iframe><br/>
+<div style="width:100%;height:0px;padding-bottom:56.25%">
+  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_HQ2H_0Ayy0?si=YjZ8gt9pZsRXNIfA" title="RAG Explained For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:static;" allowfullscreen></iframe>
+</div>
 aaaa<br/>
 bbbb<br/>
 cccc<br/>
