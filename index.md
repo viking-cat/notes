@@ -8,8 +8,8 @@
 layout: home
 ---
 
-
 <!-- Generic -------------------------------------------------------->
+
 # Generic
 
 {% capture gameBlock %}
@@ -24,7 +24,21 @@ layout: home
     {{ gameBlock | markdownify }}
 </div>
 
-<!-- Programming -------------------------------------------------------->
+<!-- Artificial Intelligence  -------------------------------------------------------->
+
+# Artificial Intelligence
+
+{% capture gameBlock %}
+[RAG](pages/ai.md#retrieval-augmented-generation-rag)<br/>
+{% endcapture %}
+
+<div style="
+     column-count:3;
+     column-gap:20px;
+     column-rule:1px solid #f715ab;">
+    {{ gameBlock | markdownify }}
+</div>
+
 # Programming
 
 {% capture codeBlock %}
