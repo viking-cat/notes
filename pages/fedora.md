@@ -1,6 +1,7 @@
 ---
 title: "Fedora"
 permalink: /pages/fedora/
+layout: page
 ---
 
 # Software
