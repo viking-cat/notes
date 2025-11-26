@@ -1,6 +1,7 @@
 ---
 title: "Kotlin"
 permalink: /pages/kotlin/
+layout: page
 ---
 # Setup
 
