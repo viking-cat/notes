@@ -28,15 +28,15 @@ Something AI
 
 ## Agentic N8N
 
-* lala 1
+* BORDER 1
 
 {% columns name:"testGrid" cols:3 %}
-- Warrior
-- Mage
-- Rogue
+* Warrior
+* Mage
+* Rogue
 {% endcolumns %}
 
-* lala 2
+* BORDER 2
 
 <div style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">{{
 * [N8N](https://n8n.io/) Test
