@@ -8,6 +8,8 @@
 layout: home
 ---
 
+Tiny test text
+
 <!-- Generic -------------------------------------------------------->
 
 # Generic
