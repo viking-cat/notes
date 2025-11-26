@@ -19,10 +19,14 @@ module Jekyll
       name = args["name"] || "columns"
       cols = args["cols"] || "2"
 
+      # Get content and convert to markdown
       content = super.strip
+      site = context.registers[:site]
+      converter = site.find_converter_instance(Jekyll::Converters::Markdown)
+      content = converter.convert(content
 
+      #Output html
       <<~HTML
-      <!-- <div class="columns #{name}" style="display:grid; grid-template-columns: repeat(#{cols}, 1fr); gap: 1rem;"> -->
       <div id="#{name}" style="column-count:#{cols}; column-gap:20px; column-rule:1px solid #f715ab;">
         #{content}
       </div>
