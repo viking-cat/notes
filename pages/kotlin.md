@@ -1,3 +1,7 @@
+---
+title: "Kotlin"
+permalink: /pages/kotlin/
+---
 # Setup
 
 ## IntelliJ Kotlin
