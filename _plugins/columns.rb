@@ -23,7 +23,7 @@ module Jekyll
 
       <<~HTML
       <!-- <div class="columns #{name}" style="display:grid; grid-template-columns: repeat(#{cols}, 1fr); gap: 1rem;"> -->
-      <div style="column-count:3; column-gap:20px; column-rule:1px solid #f715ab;">
+      <div id="#{name}" style="column-count:#{cols}; column-gap:20px; column-rule:1px solid #f715ab;">
         #{content}
       </div>
       HTML
