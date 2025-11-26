@@ -1,3 +1,8 @@
+---
+title: "Fedora Linux"
+permalink: /pages/fedora/
+---
+
 # Software
 
 {% capture gameBlock %}
