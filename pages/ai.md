@@ -1,3 +1,8 @@
+---
+title: "Artificial Intelligence"
+permalink: /pages/
+---
+
 Something AI
 
 # Tools
