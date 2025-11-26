@@ -16,7 +16,7 @@ Tiny test text
 
 {% capture gameBlock %}
 ### Operative Systems<br/>
-[Fedora](pages/fedora.md)<br/>
+[Fedora](pages/fedora/)<br/>
 {% endcapture %}
 
 <div style="
@@ -31,8 +31,8 @@ Tiny test text
 # Artificial Intelligence
 
 {% capture aiBlock %}
-[Tools](pages/ai.md#tools)<br/>
-[RAG](pages/ai.md#retrieval-augmented-generation-rag)<br/>
+[Tools]( {{ '/pages/ai/#tools' | relative_url }} )<br/>
+[RAG](pages/ai/index.html#retrieval-augmented-generation-rag)<br/>
 {% endcapture %}
 
 <div style="
@@ -61,7 +61,7 @@ C#<br/>
 [Java](https://www.java.com/)<br/>
 &nbsp;[JRE](https://www.java.com/sv/download/)<br/>
 &nbsp;[JDK](https://www.oracle.com/java/technologies/downloads/)<br/>
-[Kotlin](pages/kotlin.md)<br/>
+[Kotlin](pages/kotlin/index.html)<br/>
 &nbsp;[Docs](https://kotlinlang.org/docs/home.html)<br/>
 
 ### Libraries<br/>
