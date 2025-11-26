@@ -1,6 +1,6 @@
 ---
 title: "Artificial Intelligence"
-permalink: /pages/
+permalink: /pages/ai/
 ---
 
 Something AI
