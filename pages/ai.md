@@ -1,6 +1,7 @@
 ---
 title: "Artificial Intelligence"
 permalink: /pages/ai/
+layout: page
 ---
 
 Something AI
