@@ -3,7 +3,7 @@ Something AI
 # Tools
 
 {% capture toolsBlock %}
-[N8N](https://n8n.io/)<br/>
+
 [Ollama](https://ollama.com/)<br/>
 {% endcapture %}
 
@@ -19,6 +19,14 @@ Something AI
 * Learning AI Agent
 {% endcapture %}
 <div style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">{{ agentBlock | markdownify }}</div>
+
+## Agentic N8N
+* [N8N](https://n8n.io/) Test
+* {{ <iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/fXizBc03D7E?si=aoqA5gNQvK8oENgn" id="5TypesOfAiAgents" title="5 Types of AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> | markdownify }}
+{% capture agenticN8nBlock %}
+[N8N](https://n8n.io/)<br/>
+{% endcapture %}
+<div style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">{{ agenticN8nBlock | markdownify }}</div>
 
 # Retrieval-Augmented Generation (RAG)
 
