@@ -21,10 +21,22 @@ Something AI
 <div style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">{{ agentBlock | markdownify }}</div>
 
 ## Agentic N8N
+<div style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">{{
 * [N8N](https://n8n.io/) Test
 * {{ <iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/fXizBc03D7E?si=aoqA5gNQvK8oENgn" id="5TypesOfAiAgents" title="5 Types of AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> | markdownify }}
+```bash
+$ do something
+```
+* something | markdownify }}</div>
+
+
+
 {% capture agenticN8nBlock %}
 [N8N](https://n8n.io/)<br/>
+```bash
+$do something
+```
+test text<br/>
 {% endcapture %}
 <div style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">{{ agenticN8nBlock | markdownify }}</div>
 
