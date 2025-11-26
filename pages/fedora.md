@@ -1,5 +1,5 @@
 ---
-title: "Fedora Linux"
+title: "Fedora"
 permalink: /pages/fedora/
 ---
 
