@@ -18,6 +18,10 @@ Tiny test text
 * [Fedora](pages/fedora/)
 ### Notes & Documentation
 * [Obsidian](https://obsidian.md/)
+### Network
+* [Tailscale](https://tailscale.com/)
+### Remote Access
+* [RustDesk](https://rustdesk.com/)
 {% endcolumns %}
 
 <!-- Artificial Intelligence  -------------------------------------------------------->
@@ -42,17 +46,17 @@ Tiny test text
 * C++
   * [Reference](https://en.cppreference.com/w/cpp/language.html)
 * C#
-  * [Go](https://go.dev/)
+* [Go](https://go.dev/)
   * [Documentation](https://go.dev/doc/)
   * [Library](https://pkg.go.dev/std)
-  * [Java](https://www.java.com/)
+* [Java](https://www.java.com/)
   * [JRE](https://www.java.com/sv/download/)
   * [JDK](https://www.oracle.com/java/technologies/downloads/)
-  * [Kotlin](pages/kotlin/index.html)
+* [Kotlin](pages/kotlin/index.html)
   * [Docs](https://kotlinlang.org/docs/home.html)
 
 ### Libraries
-#### kotlin/Java
+* kotlin/Java
   * [Spring](https://spring.io/)
   * [Spring Boot](https://spring.io/projects/spring-boot)
 {% endcolumns %}
@@ -60,38 +64,23 @@ Tiny test text
 <!-- Game Development -------------------------------------------------------->
 # Game Development
 
-{% capture gameBlock %}
-### Engines<br/>
-<Godotbr/>
-Unity3D<br/>
-Unreal<br/>
-{% endcapture %}
-
-<div style="
-     column-count:3;
-     column-gap:20px;
-     column-rule:1px solid #f715ab;">
-    {{ gameBlock | markdownify }}
-</div>
+{% columns name:"homeGeneric" cols:2 %}
+### Engines
+* Godot
+* Unity3D
+* Unreal
+{% endcolumns %}
 
 <!-- Web Development -------------------------------------------------->
 # Web Development
 
-{% capture webBlock %}
-### CSS<br/>
-[Reference](https://www.w3schools.com/cssref/index.php) *W3 Schools*<br/>
-[CanIuse](https://caniuse.com/)<br/>
-### SSGs<br/>
-#### Jekyll<br/>
-[Jekyll](https://jekyllrb.com/)<br/>
-&nbsp;[Docs](https://jekyllrb.com/docs/)<br/>
-[Liquid](https://shopify.github.io/liquid/)<br/>
-[Markdown](https://www.markdownguide.org/)<br/>
-{% endcapture %}
-
-<div style="
-     column-count:3;
-     column-gap:20px;
-     column-rule:1px solid #f715ab;">
-    {{ webBlock | markdownify }}
-</div>
+{% columns name:"homeGeneric" cols:2 %}
+### CSS
+* [Reference](https://www.w3schools.com/cssref/index.php) *W3 Schools*
+* [CanIuse](https://caniuse.com/)
+### SSGs
+* [Jekyll](https://jekyllrb.com/)<br/>
+  * [Docs](https://jekyllrb.com/docs/)<br/>
+  * [Liquid](https://shopify.github.io/liquid/)<br/>
+  * [Markdown](https://www.markdownguide.org/)<br/>
+{% endcolumns %}
