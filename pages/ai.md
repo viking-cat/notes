@@ -4,20 +4,17 @@ permalink: /pages/ai/
 layout: page
 ---
 
-Something AI
+# Knowledge
 
 # Tools
 
-{% capture toolsBlock %}
-
-[Ollama](https://ollama.com/)<br/>
-{% endcapture %}
-
-<div style="column-count:3; column-gap:20px; column-rule:1px solid #f715ab;"> {{ toolsBlock | markdownify }}</div>
+{% columns name:"aiTools" cols:2 %}
+* [Ollama](https://ollama.com/)
+{% endcolumns %}
 
 # Agents
 
-{% columns name:"agenticBlock" cols:2 %}
+{% columns name:"aiAgentic" cols:2 %}
 <iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/fXizBc03D7E?si=aoqA5gNQvK8oENgn" id="5TypesOfAiAgents" title="5 Types of AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 * Simple Reflex Agent
 * Model-Based Reflex Agent
@@ -26,42 +23,23 @@ Something AI
 * Learning AI Agent
 {% endcolumns %}
 
-## Agentic N8N
+## N8N
 
-{% columns name:"agenticN8nBlock" cols:2 %}
-* Warrior
-* Mage
-* Rogue
-{% endcolumns %}
-
-* BORDER 2
-
-<div style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">{{
-* [N8N](https://n8n.io/) Test
-* {{ <iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/fXizBc03D7E?si=aoqA5gNQvK8oENgn" id="5TypesOfAiAgents" title="5 Types of AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> | markdownify }}
-```bash
-$ do something
-```
-* something | markdownify }}</div>
-
-
-
-{% capture agenticN8nBlock %}
-[N8N](https://n8n.io/)<br/>
+{% columns name:"aiAgenticN8n" cols:2 %}
+* N8N  is a "workflow automation tool" but it really shines when you combine it with LLM and RAG etc.
+* [N8N](https://n8n.io/)
+  * [Documentation](https://docs.n8n.io/)
+  * [Docker Installation](https://docs.n8n.io/hosting/installation/docker/)
 ```bash
 $do something
 ```
-test text<br/>
-{% endcapture %}
-<div style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">{{ agenticN8nBlock | markdownify }}</div>
+* something
+{% endcolumns %}
 
-# Retrieval-Augmented Generation (RAG)
+# RAG
 
-{% capture ragBlock %}
-<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/_HQ2H_0Ayy0?si=YjZ8gt9pZsRXNIfA" id="RagExplainedForBeginners" title="RAG Explained For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:static;" allowfullscreen></iframe><br />
-aaaa<br/>
-bbbb<br/>
-cccc<br/>
-dddd<br/>
-{% endcapture %}
-<div style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">{{ ragBlock | markdownify }}</div>
+"RAG" stands for "Retrieval-Augmented Generation"
+
+{% columns name:"aiAgenticN8n" cols:2 %}
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/_HQ2H_0Ayy0?si=YjZ8gt9pZsRXNIfA" id="RagExplainedForBeginners" title="RAG Explained For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:static;" allowfullscreen></iframe>
+{% endcolumns %}
