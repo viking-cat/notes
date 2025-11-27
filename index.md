@@ -16,10 +16,13 @@ Tiny test text
 {% columns name:"homeGeneric" cols:2 %}
 ### Operative Systems
 * [Fedora](pages/fedora/)
+
 ### Notes & Documentation
 * [Obsidian](https://obsidian.md/)
+
 ### Network
 * [Tailscale](https://tailscale.com/)
+
 ### Remote Access
 * [RustDesk](https://rustdesk.com/)
 {% endcolumns %}
@@ -78,6 +81,7 @@ Tiny test text
 ### CSS
 * [Reference](https://www.w3schools.com/cssref/index.php) *W3 Schools*
 * [CanIuse](https://caniuse.com/)
+
 ### SSGs
 * [Jekyll](https://jekyllrb.com/)<br/>
   * [Docs](https://jekyllrb.com/docs/)<br/>
