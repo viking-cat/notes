@@ -16,20 +16,19 @@ Something AI
 <div style="column-count:3; column-gap:20px; column-rule:1px solid #f715ab;"> {{ toolsBlock | markdownify }}</div>
 
 # Agents
-{% capture agentBlock %}
+
+{% columns name:"agenticBlock" cols:2 %}
 <iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/fXizBc03D7E?si=aoqA5gNQvK8oENgn" id="5TypesOfAiAgents" title="5 Types of AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 * Simple Reflex Agent
 * Model-Based Reflex Agent
 * Goal-Based AI Agent
 * Utility Based AI Agent
 * Learning AI Agent
-{% endcapture %}
-<div style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">{{ agentBlock | markdownify }}</div>
+{% endcolumns %}
 
 ## Agentic N8N
 
-{% columns name:"testGrid" cols:3 %}
-* <iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/fXizBc03D7E?si=aoqA5gNQvK8oENgn" id="5TypesOfAiAgents" title="5 Types of AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% columns name:"agenticN8nBlock" cols:2 %}
 * Warrior
 * Mage
 * Rogue
