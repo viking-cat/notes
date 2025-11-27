@@ -28,9 +28,8 @@ Something AI
 
 ## Agentic N8N
 
-* BORDER 1
-
 {% columns name:"testGrid" cols:3 %}
+* <iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/fXizBc03D7E?si=aoqA5gNQvK8oENgn" id="5TypesOfAiAgents" title="5 Types of AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 * Warrior
 * Mage
 * Rogue
