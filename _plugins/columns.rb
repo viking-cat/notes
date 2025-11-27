@@ -23,7 +23,7 @@ module Jekyll
       content = super.strip
       site = context.registers[:site]
       converter = site.find_converter_instance(Jekyll::Converters::Markdown)
-      content = converter.convert(content
+      content = converter.convert(content)
 
       #Output html
       <<~HTML
