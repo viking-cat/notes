@@ -42,6 +42,6 @@ $do something
 
 "RAG" stands for "Retrieval-Augmented Generation"
 
-{% columns name:"aiAgenticN8n" cols:2 %}
+{% columns name:"aiRag" cols:2 %}
 <iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/_HQ2H_0Ayy0?si=YjZ8gt9pZsRXNIfA" id="RagExplainedForBeginners" title="RAG Explained For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:static;" allowfullscreen></iframe>
 {% endcolumns %}
