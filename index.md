@@ -11,72 +11,51 @@ layout: home
 Tiny test text
 
 <!-- Generic -------------------------------------------------------->
-
 # Generic
 
-{% capture gameBlock %}
-### Operative Systems<br/>
-[Fedora](pages/fedora/)<br/>
-{% endcapture %}
-
-<div style="
-     column-count:3;
-     column-gap:20px;
-     column-rule:1px solid #f715ab;">
-    {{ gameBlock | markdownify }}
-</div>
+{% columns name:"homeGeneric" cols:2 %}
+### Operative Systems
+* [Fedora](pages/fedora/)
+### Notes & Documentation
+* [Obsidian](https://obsidian.md/)
+{% endcolumns %}
 
 <!-- Artificial Intelligence  -------------------------------------------------------->
-
 # Artificial Intelligence
 
-{% capture aiBlock %}
-[Tools]( {{ '/pages/ai/#tools' | relative_url }} )<br/>
-[RAG](pages/ai/index.html#retrieval-augmented-generation-rag)<br/>
-{% endcapture %}
+{% columns name:"homeGeneric" cols:2 %}
+* [Tools](pages/ai/index.html#tools)
+* [RAG](pages/ai/index.html#rag)
+{% endcolumns %}
 
-<div style="
-     column-count:3;
-     column-gap:20px;
-     column-rule:1px solid #f715ab;">
-    {{ aiBlock | markdownify }}
-</div>
+<!-- Software Development  -------------------------------------------------------->
+# Software Development
 
-# Programming
-
-{% capture codeBlock %}
-### IDEs<br/>
-[Intellij](https://www.jetbrains.com/idea/) Community<br/>
-[VS Code](https://code.visualstudio.com/)<br/>
+{% columns name:"homeGeneric" cols:2 %}
+### IDEs
+* [Intellij](https://www.jetbrains.com/idea/) Community
+* [VS Code](https://code.visualstudio.com/)
 
 ### Languages<br/>
-C<br/>
-&nbsp;[Reference](https://en.cppreference.com/w/c/language.html)<br/>
-C++<br/>
-&nbsp;[Reference](https://en.cppreference.com/w/cpp/language.html)<br/>
-C#<br/>
-[Go](https://go.dev/)<br/>
-&nbsp;[Documentation](https://go.dev/doc/)<br/>
-&nbsp;[Library](https://pkg.go.dev/std)<br/>
-[Java](https://www.java.com/)<br/>
-&nbsp;[JRE](https://www.java.com/sv/download/)<br/>
-&nbsp;[JDK](https://www.oracle.com/java/technologies/downloads/)<br/>
-[Kotlin](pages/kotlin/index.html)<br/>
-&nbsp;[Docs](https://kotlinlang.org/docs/home.html)<br/>
+* C
+  * [Reference](https://en.cppreference.com/w/c/language.html)
+* C++
+  * [Reference](https://en.cppreference.com/w/cpp/language.html)
+* C#
+  * [Go](https://go.dev/)
+  * [Documentation](https://go.dev/doc/)
+  * [Library](https://pkg.go.dev/std)
+  * [Java](https://www.java.com/)
+  * [JRE](https://www.java.com/sv/download/)
+  * [JDK](https://www.oracle.com/java/technologies/downloads/)
+  * [Kotlin](pages/kotlin/index.html)
+  * [Docs](https://kotlinlang.org/docs/home.html)
 
-### Libraries<br/>
-
-#### kotlin/Java<br/>
-[Spring](https://spring.io/)<br/>
-[Spring Boot](https://spring.io/projects/spring-boot)<br/>
-{% endcapture %}
-
-<div style="
-     column-count:3;
-     column-gap:20px;
-     column-rule:1px solid #f715ab;">
-    {{ codeBlock | markdownify }}
-</div>
+### Libraries
+#### kotlin/Java
+  * [Spring](https://spring.io/)
+  * [Spring Boot](https://spring.io/projects/spring-boot)
+{% endcolumns %}
 
 <!-- Game Development -------------------------------------------------------->
 # Game Development
