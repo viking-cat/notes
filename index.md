@@ -62,6 +62,10 @@ Tiny test text
 * kotlin/Java
   * [Spring](https://spring.io/)
   * [Spring Boot](https://spring.io/projects/spring-boot)
+
+### Libraries
+* [Git](pages/git/index.html#git)
+* [Github](pages/git/index.html#github)
 {% endcolumns %}
 
 <!-- Game Development -------------------------------------------------------->
