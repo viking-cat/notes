@@ -33,6 +33,7 @@ Tiny test text
 {% columns name:"homeGeneric" cols:2 %}
 * [Tools](pages/ai/index.html#tools)
 * [RAG](pages/ai/index.html#rag)
+* [N8N](pages/ai/index.html#n8n)
 {% endcolumns %}
 
 <!-- Software Development  -------------------------------------------------------->
