@@ -77,17 +77,33 @@
   <li><a href="https://n8n.io/">N8N</a>
     <ul>
       <li><a href="https://docs.n8n.io/">Documentation</a></li>
-      <li><a href="https://docs.n8n.io/hosting/installation/docker/">Docker Installation</a></li>
+      <li><a href="https://docs.n8n.io/hosting/installation/docker/">Docker Installation</a>
+        <h3 id="installation">Installation</h3>
+        <h4 id="docker">Docker</h4>
+        <p>```bash</p>
+        <h1 id="docker-installation">Docker Installation</h1>
+      </li>
     </ul>
   </li>
 </ul>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$do</span> something
-</code></pre></div></div>
-
-<ul>
-  <li>something</li>
-</ul>
+<ol>
+  <li>Download and install docket</li>
+  <li>Get timezone (“europe/stockholm”)</li>
+  <li>Docker -&gt; Volumes -&gt; Create “n8n_data” volume</li>
+  <li>Docker -&gt; Images -&gt; Search for “n8n”</li>
+  <li>Docker -&gt; Images -&gt; Pull “n8nio/n8n”</li>
+  <li>Docker -&gt; Images -&gt; n8nio/n8n -&gt; Run -&gt; Optional Settings
+```
+    <ul>
+      <li>Visit http://localhost:5678</li>
+      <li>Need tunnel for webhooks
+        <h3 id="training">Training</h3>
+      </li>
+      <li><a href="https://www.youtube.com/watch?v=6ET3G7GiqZA">Install n8n Locally With Docker Desktop</a></li>
+    </ul>
+  </li>
+</ol>
 
 </div>
 
