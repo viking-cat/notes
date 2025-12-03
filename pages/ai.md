@@ -30,12 +30,22 @@ layout: page
 * [N8N](https://n8n.io/)
   * [Documentation](https://docs.n8n.io/)
   * [Docker Installation](https://docs.n8n.io/hosting/installation/docker/)
-
+### Installation
+#### Docker
 ```bash
-$do something
-```
+# Docker Installation
 
-* something
+1. Download and install docket
+2. Get timezone ("europe/stockholm")
+3. Docker -> Volumes -> Create "n8n_data" volume
+4. Docker -> Images -> Search for "n8n"
+5. Docker -> Images -> Pull "n8nio/n8n"
+6. Docker -> Images -> n8nio/n8n -> Run -> Optional Settings
+```
+* Visit http://localhost:5678
+* Need tunnel for webhooks
+### Training
+* [Install n8n Locally With Docker Desktop](https://www.youtube.com/watch?v=6ET3G7GiqZA)
 {% endcolumns %}
 
 # RAG
