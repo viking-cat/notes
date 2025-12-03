@@ -44,18 +44,9 @@
   </header>
 
   <div class="post-content">
-    <h1 id="knowledge">Knowledge</h1>
+    <h1 id="ai-training">AI Training</h1>
 
-<h1 id="tools">Tools</h1>
-
-<div id="aiTools" style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">
-  <ul>
-  <li><a href="https://ollama.com/">Ollama</a></li>
-</ul>
-
-</div>
-
-<h1 id="agents">Agents</h1>
+<h2 id="agents">Agents</h2>
 
 <div id="aiAgentic" style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">
   <iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/fXizBc03D7E?si=aoqA5gNQvK8oENgn" id="5TypesOfAiAgents" title="5 Types of AI Agents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
@@ -69,6 +60,24 @@
 
 </div>
 
+<h2 id="rag">RAG</h2>
+
+<p>“RAG” stands for “Retrieval-Augmented Generation”</p>
+
+<div id="aiRag" style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">
+  <iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/_HQ2H_0Ayy0?si=YjZ8gt9pZsRXNIfA" id="RagExplainedForBeginners" title="RAG Explained For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:static;" allowfullscreen=""></iframe>
+
+</div>
+
+<h1 id="tools">Tools</h1>
+
+<div id="aiTools" style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">
+  <ul>
+  <li><a href="https://ollama.com/">Ollama</a></li>
+</ul>
+
+</div>
+
 <h2 id="n8n">N8N</h2>
 
 <div id="aiAgenticN8n" style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">
@@ -77,42 +86,33 @@
   <li><a href="https://n8n.io/">N8N</a>
     <ul>
       <li><a href="https://docs.n8n.io/">Documentation</a></li>
-      <li><a href="https://docs.n8n.io/hosting/installation/docker/">Docker Installation</a>
-        <h3 id="installation">Installation</h3>
-        <h4 id="docker">Docker</h4>
-        <p>```bash</p>
-        <h1 id="docker-installation">Docker Installation</h1>
-      </li>
+      <li><a href="https://docs.n8n.io/hosting/installation/docker/">Docker Installation</a></li>
     </ul>
   </li>
+  <li><strong>Docker Installation</strong></li>
 </ul>
 
-<ol>
-  <li>Download and install docket</li>
-  <li>Get timezone (“europe/stockholm”)</li>
-  <li>Docker -&gt; Volumes -&gt; Create “n8n_data” volume</li>
-  <li>Docker -&gt; Images -&gt; Search for “n8n”</li>
-  <li>Docker -&gt; Images -&gt; Pull “n8nio/n8n”</li>
-  <li>Docker -&gt; Images -&gt; n8nio/n8n -&gt; Run -&gt; Optional Settings
-```
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Docker Installation</span>
+
+1. Download and <span class="nb">install </span>docket
+2. Get timezone <span class="o">(</span><span class="s2">"europe/stockholm"</span><span class="o">)</span>
+3. Docker -&gt; Volumes -&gt; Create <span class="s2">"n8n_data"</span> volume
+4. Docker -&gt; Images -&gt; Search <span class="k">for</span> <span class="s2">"n8n"</span>
+5. Docker -&gt; Images -&gt; Pull <span class="s2">"n8nio/n8n"</span>
+6. Docker -&gt; Images -&gt; n8nio/n8n -&gt; Run -&gt; Optional Settings
+</code></pre></div></div>
+
+<ul>
+  <li>Visit http://localhost:5678</li>
+  <li>
+    <p>Need tunnel for webhooks</p>
+  </li>
+  <li><strong>Training</strong>
     <ul>
-      <li>Visit http://localhost:5678</li>
-      <li>Need tunnel for webhooks
-        <h3 id="training">Training</h3>
-      </li>
       <li><a href="https://www.youtube.com/watch?v=6ET3G7GiqZA">Install n8n Locally With Docker Desktop</a></li>
     </ul>
   </li>
-</ol>
-
-</div>
-
-<h1 id="rag">RAG</h1>
-
-<p>“RAG” stands for “Retrieval-Augmented Generation”</p>
-
-<div id="aiRag" style="column-count:2; column-gap:20px; column-rule:1px solid #f715ab;">
-  <iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/_HQ2H_0Ayy0?si=YjZ8gt9pZsRXNIfA" id="RagExplainedForBeginners" title="RAG Explained For Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:static;" allowfullscreen=""></iframe>
+</ul>
 
 </div>
 
