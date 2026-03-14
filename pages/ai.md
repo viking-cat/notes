@@ -16,9 +16,9 @@ layout: page
 * Utility Based AI Agent
 * Learning AI Agent
 * [OpenCode](https://opencode.ai/)
-** [Install](https://opencode.ai/download)
-** [Documentation](https://opencode.ai/docs)
-** {% highlight powershell %}
+  * [Install](https://opencode.ai/download)
+  * [Documentation](https://opencode.ai/docs)
+  * {% highlight powershell %}
 # Install NPM<br/>
 npm i -g opencode-ai<br/>
 cd <path to a project>\
