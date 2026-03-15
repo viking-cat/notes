@@ -15,6 +15,20 @@ layout: page
 * Goal-Based AI Agent
 * Utility Based AI Agent
 * Learning AI Agent
+* [Goose](https://block.github.io/goose/)
+  * [Quick Start](https://block.github.io/goose/docs/quickstart)
+  * {% highlight powershell %}
+# Windows
+# Choose a location to install goose
+cd c:\MyPrograms\GooseAi
+# Download
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/block/goose/main/download_cli.ps1" -OutFile "download_cli.ps1";
+# Install
+.\download_cli.ps1
+# Simple configuration will automatically appear next
+# Start goose
+goose session
+{% endhighlight %}
 * [OpenCode](https://opencode.ai/)
   * [Install](https://opencode.ai/download)
   * [Documentation](https://opencode.ai/docs)
@@ -23,7 +37,6 @@ layout: page
 npm i -g opencode-ai<br/>
 cd <path to a project>\
 opencode
-
 {% endhighlight %}
 
 <div>
