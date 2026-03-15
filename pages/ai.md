@@ -44,7 +44,9 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/block/goose/main/downl
 # Install
 .\download_cli.ps1
 # Simple configuration will automatically appear next
-# Start goose
+# Update Goose (necessary)
+goose update
+# Start Goose
 goose session
 {% endhighlight %}
 
