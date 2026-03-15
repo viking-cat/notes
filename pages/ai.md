@@ -46,6 +46,27 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/block/goose/main/downl
 # Simple configuration will automatically appear next
 # Update Goose (necessary)
 goose update
+# Configure Goose
+goose configure
+> Add Extension
+>> Built-in Extensions
+>>> Computer Controller
+>>>> 300
+goose configure
+> Add Extension
+>> Built-in Extensions
+>>> Developer
+>>>> 300
+goose configure
+> Add Extension
+>> Built-in Extensions
+>>> Memory
+>>>> 300
+goose configure
+> Add Extension
+>> Built-in Extensions
+>>> Auto Visualizer
+>>>> 300
 # Start Goose
 goose session
 {% endhighlight %}
