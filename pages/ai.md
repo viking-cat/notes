@@ -76,8 +76,9 @@ goose session
   * [Documentation](https://opencode.ai/docs)
 
 {% highlight powershell %}
-# Install NPM<br/>
-npm i -g opencode-ai<br/>
+# Install NPM
+npm i -g opencode-ai
+pip install --upgrade opencode-cli
 cd <path to a project>\
 opencode
 {% endhighlight %}
