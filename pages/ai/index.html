@@ -75,9 +75,21 @@
   <h2 id="model-servers">Model Servers</h2>
 <ul>
   <li><a href="https://ollama.com/">Ollama</a></li>
+  <li><a href="https://lmstudio.ai/">LM StudioNo</a></li>
 </ul>
 
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># Default Address</span>
+http://127.0.0.1:11434</code></pre></figure>
+
 <h2 id="agents">Agents</h2>
+<ul>
+  <li><strong>General</strong></li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># Context Size</span>
+You have to increase the context size <span class="k">for </span>a LMM <span class="k">in </span>Ollama or LM Studio or it will fail.
+Default values are too small and will not fit tool information etc and cause various strange problems.</code></pre></figure>
+
 <ul>
   <li><a href="https://block.github.io/goose/">Goose</a>
     <ul>
@@ -85,6 +97,10 @@
     </ul>
   </li>
 </ul>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">  
+<span class="c"># Default Address</span>
+http://127.0.0.1:1234</code></pre></figure>
 
 <figure class="highlight"><pre><code class="language-powershell" data-lang="powershell"><span class="c"># Windows</span><span class="w">
 </span><span class="c"># Choose a location to install goose</span><span class="w">
