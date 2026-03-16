@@ -31,8 +31,18 @@ layout: page
 ## Model Servers
 * [Ollama](https://ollama.com/)
 * [LM StudioNo](https://lmstudio.ai/)
+{% highlight bash %}
+# Default Address
+http://127.0.0.1:11434
+{% endhighlight %}
 
 ## Agents
+* **General**
+{% highlight bash %}
+# Context Size
+You have to increase the context size for a LMM in Ollama or LM Studio or it will fail.
+Default values are too small and will not fit tool information etc and cause various strange problems.
+{% endhighlight %}
 * [Goose](https://block.github.io/goose/)
   * [Quick Start](https://block.github.io/goose/docs/quickstart) 
 {% highlight bash %}  
