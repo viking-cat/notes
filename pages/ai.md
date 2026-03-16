@@ -30,10 +30,15 @@ layout: page
 {% columns name:"aiTools" cols:2 %}
 ## Model Servers
 * [Ollama](https://ollama.com/)
+* [LM StudioNo](https://lmstudio.ai/)
 
 ## Agents
 * [Goose](https://block.github.io/goose/)
-  * [Quick Start](https://block.github.io/goose/docs/quickstart)
+  * [Quick Start](https://block.github.io/goose/docs/quickstart) 
+{% highlight bash %}  
+# Default Address
+http://127.0.0.1:1234
+{% endhighlight %}
 
 {% highlight powershell %}
 # Windows
