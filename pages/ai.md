@@ -36,6 +36,10 @@ layout: page
 http://127.0.0.1:11434
 {% endhighlight %}
 
+## Model Providers
+* [Hugging Face](https://huggingface.co/)
+* []()
+
 ## Agents
 * **General**
 {% highlight bash %}
@@ -43,6 +47,8 @@ http://127.0.0.1:11434
 You have to increase the context size for a LMM in Ollama or LM Studio or it will fail.
 Default values are too small and will not fit tool information etc and cause various strange problems.
 {% endhighlight %}
+* [Aider](https://aider.chat/)
+  * [Documentation](https://aider.chat/docs/)
 * [Goose](https://block.github.io/goose/)
   * [Quick Start](https://block.github.io/goose/docs/quickstart) 
 {% highlight bash %}  
@@ -85,7 +91,7 @@ goose configure
 # Start Goose
 goose session
 {% endhighlight %}
-
+* [Kiro](https://kiro.dev/)
 * [OpenCode](https://opencode.ai/)
   * [Install](https://opencode.ai/download)
   * [Documentation](https://opencode.ai/docs)
